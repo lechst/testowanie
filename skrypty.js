@@ -12,8 +12,8 @@ $(document).ready(function(){
     });
     
     function animate() {$("#animate1").animate({
-        marginLeft: "+=5px"
-    }, function(){
+        marginLeft: "+=100px"
+    }, 1000, 'linear', function(){
         animate();
     }); }
     
